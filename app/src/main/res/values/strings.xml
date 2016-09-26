@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">Pokemon List</string>
+  <string name="get_pokemon">Get</string>
+  <string name="pokemon_name">Name</string>
+</resources>
