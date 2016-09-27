@@ -17,8 +17,6 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import com.example.algomez.retrofitexample.model.PokemonModel;
 import com.example.algomez.retrofitexample.rendering.PokemonAdapter;
-import com.example.algomez.retrofitexample.rest.ApiClient;
-import com.example.algomez.retrofitexample.rest.PokemonService;
 import java.util.ArrayList;
 import java.util.List;
 import retrofit2.Response;
@@ -28,7 +26,6 @@ public class MainActivity extends AppCompatActivity implements MainPresenter.Mai
   @BindView(R.id.pokemon_list) RecyclerView recyclerView;
   @BindView(R.id.input_number) EditText inputNumber;
 
-  private PokemonService service;
   private List<PokemonModel> list;
   private PokemonAdapter pAdapter;
 
@@ -55,16 +52,11 @@ public class MainActivity extends AppCompatActivity implements MainPresenter.Mai
   }
 
   @OnClick(R.id.get_pokemon_cta) public void onGetPokemonClicked() {
-    final String number = inputNumber.getText().toString();
-    if(!number.equals("")){
-      presenter.getInformation(Integer.parseInt(number));
-    }
+      presenter.getInformation();
   }
 
   public void initPresenter(){
-    service = ApiClient.getClient().create(PokemonService.class);
     presenter = new MainPresenter(this);
-    presenter.setService(service);
   }
 
   public void initRecyclerView(){
@@ -104,5 +96,9 @@ public class MainActivity extends AppCompatActivity implements MainPresenter.Mai
 
   @Override public void showError(String error) {
     Toast.makeText(getApplicationContext(), error, Toast.LENGTH_LONG).show();
+  }
+
+  @Override public String getEditText() {
+    return inputNumber.getText().toString();
   }
 }

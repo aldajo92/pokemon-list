@@ -14,10 +14,6 @@ import com.example.algomez.retrofitexample.model.PokemonModel;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 
-/**
- * Created by algomez on 9/25/16.
- */
-
 public class PokemonAdapter extends RecyclerView.Adapter<PokemonAdapter.PokemonViewHolder> {
 
   private List<PokemonModel> list;
