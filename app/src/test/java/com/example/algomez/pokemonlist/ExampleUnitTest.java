@@ -1,4 +1,4 @@
-package com.example.algomez.retrofitexample;
+package com.example.algomez.pokemonlist;
 
 import org.junit.Test;
 

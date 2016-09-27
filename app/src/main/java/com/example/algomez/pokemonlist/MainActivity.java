@@ -1,4 +1,4 @@
-package com.example.algomez.retrofitexample;
+package com.example.algomez.pokemonlist;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -15,8 +15,8 @@ import android.widget.Toast;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import com.example.algomez.retrofitexample.model.PokemonModel;
-import com.example.algomez.retrofitexample.rendering.PokemonAdapter;
+import com.example.algomez.pokemonlist.model.PokemonModel;
+import com.example.algomez.pokemonlist.rendering.PokemonAdapter;
 import java.util.ArrayList;
 import java.util.List;
 import retrofit2.Response;

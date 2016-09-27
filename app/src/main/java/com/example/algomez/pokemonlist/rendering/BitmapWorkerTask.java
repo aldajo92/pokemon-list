@@ -1,4 +1,4 @@
-package com.example.algomez.retrofitexample.rendering;
+package com.example.algomez.pokemonlist.rendering;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

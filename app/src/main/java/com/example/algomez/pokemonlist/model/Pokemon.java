@@ -1,12 +1,12 @@
-package com.example.algomez.retrofitexample.model;
+package com.example.algomez.pokemonlist.model;
 
+import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class VersionGroup {
+public class Pokemon {
 
-  @SerializedName("url") private String url;
-
-  @SerializedName("name") private String name;
+  @SerializedName("url") @Expose private String url;
+  @SerializedName("name") @Expose private String name;
 
   /**
    * @return The url

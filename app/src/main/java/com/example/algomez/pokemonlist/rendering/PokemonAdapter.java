@@ -1,4 +1,4 @@
-package com.example.algomez.retrofitexample.rendering;
+package com.example.algomez.pokemonlist.rendering;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -9,8 +9,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import com.example.algomez.retrofitexample.R;
-import com.example.algomez.retrofitexample.model.PokemonModel;
+import com.example.algomez.pokemonlist.R;
+import com.example.algomez.pokemonlist.model.PokemonModel;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 

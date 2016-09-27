@@ -1,4 +1,4 @@
-package com.example.algomez.retrofitexample;
+package com.example.algomez.pokemonlist;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -19,6 +19,6 @@ import static org.junit.Assert.*;
     // Context of the app under test.
     Context appContext = InstrumentationRegistry.getTargetContext();
 
-    assertEquals("com.example.algomez.retrofitexample", appContext.getPackageName());
+    assertEquals("com.example.algomez.pokemonlist", appContext.getPackageName());
   }
 }

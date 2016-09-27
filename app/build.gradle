@@ -5,7 +5,7 @@ android {
   compileSdkVersion 23
   buildToolsVersion "23.0.3"
   defaultConfig {
-    applicationId "com.example.algomez.retrofitexample"
+    applicationId "com.example.algomez.pokemonlist"
     minSdkVersion 20
     targetSdkVersion 23
     versionCode 1

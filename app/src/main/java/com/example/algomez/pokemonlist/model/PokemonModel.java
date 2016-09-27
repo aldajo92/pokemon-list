@@ -1,4 +1,4 @@
-package com.example.algomez.retrofitexample.model;
+package com.example.algomez.pokemonlist.model;
 
 import com.google.gson.annotations.SerializedName;
 

@@ -1,8 +1,8 @@
-package com.example.algomez.retrofitexample;
+package com.example.algomez.pokemonlist;
 
-import com.example.algomez.retrofitexample.model.PokemonModel;
-import com.example.algomez.retrofitexample.rest.ApiClient;
-import com.example.algomez.retrofitexample.rest.PokemonService;
+import com.example.algomez.pokemonlist.model.PokemonModel;
+import com.example.algomez.pokemonlist.rest.ApiClient;
+import com.example.algomez.pokemonlist.rest.PokemonService;
 import retrofit2.Call;
 
 public class MainAction {

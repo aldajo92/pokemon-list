@@ -1,6 +1,6 @@
-package com.example.algomez.retrofitexample.rest;
+package com.example.algomez.pokemonlist.rest;
 
-import com.example.algomez.retrofitexample.model.PokemonModel;
+import com.example.algomez.pokemonlist.model.PokemonModel;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.http.GET;
