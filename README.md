@@ -4,7 +4,7 @@ App created for learning to implement retrofit with pokemon-api. Usefull for und
 # More information about Pokemon API
 https://pokeapi.co/
 
-# Resources for create this project
+# Resources implemented on this project
 
 http://square.github.io/retrofit/
 http://jakewharton.github.io/butterknife/
